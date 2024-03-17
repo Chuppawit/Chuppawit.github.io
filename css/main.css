@@ -1,0 +1,88 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  /*font-weight: <weight>;*/
+  /*font-style: normal;*/
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 30px;
+    /*margin-left: 20px;*/
+    border-radius: 50%;
+    /*object-fit: cover;*/  
+    /*--- For picture that not square---*/
+    box-shadow: 8px 8px 5px 0px gray;
+    /*box-shadow: h-offset v-offset blur spared color*/
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    /*Top-Down / Left-Right*/
+    /*Top >> Right >> Down >> Left*/
+    text-decoration: none;
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+
+}
+
+.container {
+    /*background-color: lightgray;*/
+    background-image: linear-gradient(to right, rgba(255,255,255, 1), rgba(255,255,255, 0.3)),
+    url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top left;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+@media screen and (max-width: 768px)/*768 tablet*/ {
+    .container {
+        padding: 36px;
+    }
+}
+
+.content {
+    max-width: 500px;
+}
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.name{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px)/*768 tablet*/ {
+    .name {
+        font-size:30px;
+    }
+}
+
